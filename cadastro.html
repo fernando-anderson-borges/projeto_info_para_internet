@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Imóvel</title>
+    <link rel="stylesheet" href="cadastro.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <form class="cadastro-form">
+                <input type="text" placeholder="Título do imóvel" required>
+                <input type="text" placeholder="Valor" required>
+                <select required>
+                    <option disabled selected>Aluguel ou venda</option>
+                    <option>Aluguel</option>
+                    <option>Venda</option>
+                </select>
+                <textarea placeholder="Descrição" required></textarea>
+            </form>
+        </div>
+        <div class="upload-section">
+            <h2>insira imagens do imovel</h2>
+            <div class="upload-grid">
+                <div class="upload-box">+</div>
+                <div class="upload-box">+</div>
+                <div class="upload-box">+</div>
+            </div>
+            <button class="btn-cadastrar">Cadastrar</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    height: 90vh;
+    display: flex;
+    background-color: #011d25;
+}
+
+.form-section {
+    width: 30%;
+    background-color: #015d6d;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cadastro-form input,
+.cadastro-form select,
+.cadastro-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #82ffff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 14px;
+}
+
+.cadastro-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.upload-section {
+    width: 70%;
+    padding: 40px;
+    text-align: center;
+}
+
+.upload-section h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+}
+
+.upload-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-auto-rows: 100px;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.upload-box {
+    background-color: #00f7ff;
+    color: #000;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-cadastrar {
+    background-color: #82ffff;
+    color: #000;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
